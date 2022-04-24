@@ -1,73 +1,68 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0%;
-    
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  /* text-align: justify; */
 }
-h1{
-    font-size: 50px;
+h1 {
+  font-size: 50px;
 }
-h2{
-    font-size: 40px;
+h2 {
+  font-size: 40px;
 }
-.orenge-clr{
-    color: orange;
+.orange-clr {
+  color: orange;
 }
-.flexible-container{
-    display: flex;
-    margin-bottom: 150px;
-    
+.flexible-container {
+  display: flex;
+  margin-bottom: 100px;
 }
-.half-width{
-    width: 50%;
-    padding: 2px;
-  
-    
- 
+.half-width {
+  width: 50%;
+  padding-left: 2%;
 }
-.half-width img{
-width: 80%;
+.half-width img {
+  width: 80%;
 }
-.link-button{
-    text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
-    padding: 10px 40px;
-    color: white;
-    font-weight: 700;
-    border-radius: 5px;
+.link-btn {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  color: white;
+  font-weight: 700;
+  padding: 10px 40px;
+  border-radius: 5px;
 }
-.top-banner{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+.top-banner {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
 }
-.dream-big{
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
+.dream-big {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
-.experience-area{
-    background-image: url(images/exp-bg.png);
-    background-repeat: no-repeat;
-    background-position: left;
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
 }
-.experience-item{
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 40px gray;
- 
+.experience-item {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px gray;
 }
-#web-experience{
-    border-left: 7px solid;
-    border-image: linear-gradient(blue, cyan);
-    border-image-slice: 1;
+#full-stuck-exp {
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(216, 52, 34), tomato);
+  border-image-slice: 1;
 }
-#full-stuck{
-    border-left: 7px solid;
-    border-image: linear-gradient( #e22517,  orange);
-    border-image-slice: 1;
+#web-dev-exp {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
 }
-footer{
-    text-align: center;
+footer p {
+  text-align: center;
 }
